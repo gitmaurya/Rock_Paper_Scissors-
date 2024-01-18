@@ -1,62 +1,39 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Set Alarm</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choise-div">
+        <div class="choise" id="rock">
+            <img src="C:\Users\hp\Downloads\project 1\Screenshot 2024-01-09 155439.png">
+        </div>
+        <div class="choise" id="paper">
+            <img src="C:\Users\hp\Downloads\project 1\Screenshot 2024-01-09 155447.png">
+        </div>
+        <div class="choise" id="scissors">
+            <img src="C:\Users\hp\Downloads\project 1\Screenshot 2024-01-09 155427.png">
+        </div>
+</div>
 
+<div class="score-board">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+    </div>
+    <div class="score">
+        <p id="computer-score">0</p>
+        <p>Computer</p>
+    </div>
+</div>
 
-
-		<div id='main-container'>
-			<h2 id='clock'></h2>
-		
-
-		<div id='alarm-container'>
-			<h3>Set Alarm Time</h3>
-				<label>
-					<div>
-					<select id='alarmhrs' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-					<select id='alarmmins' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-					<select id='alarmsecs' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-						<select id="ampm">
-							<option value="AM">AM</option>
-							<option value="PM">PM</option>
-						</select>
-					</div>
-				</label>
-		</div>
-		
-
-		<div id='buttonHolder'>
-			<div>
-				<button  id='setButton' onClick='alarmSet()'>Set Alarm</button>
-			</div>
-
-			<div>
-				<button  id='clearButton' onClick='alarmClear()'>Clear Alarm</button>
-			</div>
-		</div>
-	</div>
-
-	<script src="index.js">
-		
-	</script>
-
+<div class="msg-container">
+    <p id="msg">Play your move</p>
+</div>
+    <script src="app.js"></script>
 </body>
 </html>
