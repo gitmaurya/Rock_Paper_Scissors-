@@ -1,98 +1,63 @@
-
-
-
-
-body {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-     
-  padding: 0;
-  margin: 0;
+*{
+    
+    margin: 0;
+    padding: 0;
 }
-
-#clock {
-    border-radius: 20px;
-    padding: 0px 20px;
-    background-color: lavender;
-    height:120px;
-    font-size: 40px;
-    font-family: arial;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  color: black;
-}
-#main-container{
-    background-color: lightgoldenrodyellow;
-margin-left: 40px;    
-border: 2px solid black;
-margin-top: 150px;
-width: 60vw;
-height: 60vh;
-align-items: center;
-justify-content: center;
-display: flex;
-}
-
-h2 {
-	text-align:center;
-  
-
-}
-
-#alarm-container {
-   justify-content: center;
-	text-align:center;
-    font-family: Verdana;
-    font-size: 1em;
-    padding: 0.7em;
-  color: black;
-}
-
-label {
-	display:inline-block;
-}
-
-.timeofday {
-    background-color: #eee;
-}
-
-.bigger {
-    font-weight:bold;
-    font-size: 18px;
-}
-
-#sounds {
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
     text-align: center;
-    padding-top: 20px;
+}
+.choise-div{
+  
+    margin-top: 100px;
+    padding-top: 10px;
+    gap: 3rem;;
+    margin-left: 550px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    height: 165px;
+    width: 165px;
+}
+.choise:hover{
+    border-radius: 40%;
+    background-color: #081b31;
+    cursor: pointer;
+}
+img{
+  
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board{
+    padding: 5px 5px;
+    font-size: 2rem;
+    justify-content: space-around;
+    display: flex;
+    color: aliceblue;
+    background-color: #081b31;
+     text-align: center;
+    margin-left: 500px;
+    margin-right: 580px;
+    margin-top: 100px;
 }
 
-#setButton {
-    border-radius: 8px;
-    width: 100px;
-    float:left;
-    background-color: #ddd;
-    margin-top:10px;
-}
-#setButton:hover{
-    background-color: #3e8e41;
-  color: white;
-  cursor: pointer;
-}
+.msg-container{
+border-radius: 70px;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding-top: 15px;
+    color: aliceblue;
+    background-color: #081b31;
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 580px;
 
-#clearButton {
-    border-radius: 8px;
-    width: 100px;
-    float:right;
-    background-color:maroon;
-    margin-top:10px;
 }
-#clearButton:hover{
-    background-color:red;
-  color: white;
-  cursor: pointer;
-}
-
-
